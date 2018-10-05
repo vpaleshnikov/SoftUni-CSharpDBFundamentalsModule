@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\P01_HospitalDatabaseInitializer\P01_HospitalDatabaseInitializer.csproj" />
+    <ProjectReference Include="..\P01_HospitalDatabase\P01_HospitalDatabase.csproj" />
+    <ProjectReference Include="..\P01_P02_HospitalDatabaseInitializer\P01_P02_HospitalDatabaseInitializer.csproj" />
+    <ProjectReference Include="..\P01_P02_HospitalDatabase\P01_P02_HospitalDatabase.csproj" />
+  </ItemGroup>
+
+</Project>
